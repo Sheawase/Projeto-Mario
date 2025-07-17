@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mask-form" onclick="hiddenbutton()"></div>
+    <div class="header">
+        <img src="./img/icon.png" alt="mario head">
+        <a href="./index.html">Home</a>
+        <a href="./our-service.html">our service</a>
+        <a onclick="clickonbutton()">talk to us</a>
+
+    </div>
+    <div class="mother-box">
+        <div class="principal-box">
+            <img class="mario-logo" src="./img/logo.png" alt="mario logo">
+            <p>Plumbers Mario and Luigi solving their problems in style!</p>
+            <p>Have you ever found yourself in a plumbing emergency? Unexpected leaks, clogged pipes or faucets that
+                won’t
+                stop
+                dripping? Don’t worry, because we’re here to save the day! Introducing the Mushroom Kingdom’s most
+                famous
+                plumbers – Mario and Luigi!</p>
+
+            <button onclick="clickonbutton()" class="contact">get in touch</button>
+        </div>
+
+        <div>
+            <img class="mario-and-luigi" src="./img/mario.png" alt="
+image of Mario next to Luigi">
+        </div>
+
+    </div>
+
+
+    <div class="video-box">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mask"></div>
+    </div>
+
+    <a href="https://w.app/vvi97y" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link for whatsapp">
+    </a>
+
+    <form class="get-in-touch" action="https://formcarry.com/s/1JHBwpEnv6e" method="POST" enctype="multipart/form-data">
+        <input class='form' placeholder="your name" type="text" name="name">
+        <input class='form' placeholder="your cellphone" type="tel" name="cellphone">
+        <textarea placeholder="your problems..." name="doubts"></textarea>
+        <button type="submit">request quote</button>
+
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

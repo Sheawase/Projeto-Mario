@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-box {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1 {
+    color: green;
+    font-size: 35px;
+
+}
+
+.icon {
+    height: 10px;
+}
+
+.mario {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.mario-logo {
+    height: 200px;    
+}
+
+.mask {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
