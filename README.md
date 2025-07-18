@@ -9,4 +9,4 @@
 <br>
 <img src="./img/Screenshot 2025-07-18 173130.png">
 <br>
-<a href="https://sheawase.github.io/Projeto-Mario/"></a>
+<a href="https://sheawase.github.io/Projeto-Mario/">Link para o projeto</a>
